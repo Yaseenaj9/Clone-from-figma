@@ -1,0 +1,1167 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter";
+    font-optical-sizing: auto;
+  font-size: 16px;
+  font-style: normal;
+  background: #F7FAFC;
+
+}
+
+.home-page {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+/* works for main header */
+.mainHeader {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 86px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+/* wroks for logo */
+.BrandLogo {
+    width: 150px;
+    height: 46px;
+    top: 20px;
+    margin-left: 80px;
+    gap: 0px;
+    opacity: 0px;
+    /* border: 1px solid black; */
+}
+
+/* works for search */
+.SearchForm {
+    width: 665px;
+    height: 40px;
+    display: flex;
+    margin-left: 40px;
+}
+
+#input1 {
+    border-radius: 7px 0px 0px 7px;
+    border: none;
+    border: 2px solid #0d7cf9;
+    width: 421px;
+    height: 40px;
+    top: 22px;
+    left: 326px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.input2 {
+    width: 406px;
+    height: 19px;
+    margin: 11px 0px 0px 10px;
+    gap: 0px;
+    opacity: 0px;
+    border: none;
+}
+
+#Select1 {
+    width: 145px;
+    height: 40px;
+    top: 22px;
+    left: 746px;
+    gap: 0px;
+    opacity: 0px;
+    border: 2px solid #0D6EFD
+}
+
+#Select2 {
+    border: none;
+    width: 130px;
+    height: 19px;
+    margin: 11px 0px 0px 10px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#btn {
+    border-radius: 0px 7px 7px 0px;
+    width: 100px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
+}
+
+.btn1 {
+    color: #FFFFFF;
+    border: none;
+    width: 80px;
+    height: 19px;
+    margin: 11px 0px 0px 10px;
+    gap: 10px;
+    opacity: 0px;
+    background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
+}
+
+/* works for action */
+.Action {
+    width: 228px;
+    height: 41px;
+    opacity: 0px;
+    color: #8B96A5;
+    margin-left: 40px;
+}
+
+.img img {
+    padding-left: 8px;
+}
+
+/* start navbar */
+.navbar {
+    width: 100%;
+    height: 56px;
+    border: 0.1px solid #E0E0E0;
+    display: flex;
+}
+
+/* list work */
+.menu {
+    width: 620px;
+    height: 24px;
+    margin: 16px 0px 0px 80px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.UL {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+#imge {
+    width: 24px;
+    height: 24px;
+    margin-top: -3px;
+}
+
+#category {
+    width: 92px;
+    height: 22px;
+    margin-top: 17px;
+}
+
+#offers {
+    width: 77px;
+    height: 22px;
+    margin: 0px 0px 0px 28px;
+}
+
+#boxes {
+    width: 79px;
+    height: 22px;
+    margin: 0px 0px 0px 33px;
+}
+
+#Projects {
+    width: 63px;
+    height: 22px;
+    margin: 0px 0px 0px 38px;
+}
+
+#items {
+    width: 81px;
+    height: 22px;
+    margin: 0px 0px 0px 28px;
+}
+
+#help {
+    border: none;
+    width: 50px;
+    height: 20px;
+    margin: 0px 0px 0px 23px;
+}
+
+#payment {
+    border: none;
+    width: 106px;
+    height: 24px;
+    margin-top: 16px;
+    margin-left: 240px;
+}
+
+.dropdown{
+    width: 110px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px 0px 0px 30px;
+}
+#Ship {
+    width: 54px;
+    height: 22px;
+}
+#imgShip{
+    width: 22px;
+    height: 16px;
+}
+#vectordown{
+    width: 24px;
+    height: 24px;
+    border: none;
+    color: #8B96A5;
+
+}
+
+/* section-main all works is here */
+.section-main {
+    width: 1110px;
+    height: 400px;
+    margin-top: 13px;
+    margin-left: 85px;
+    border: 0.1px solid #E0E0E0;
+    display: flex;
+}
+
+/* menu2 works  */
+.menu2 {
+    width: 250px;
+    height: 360px;
+    margin-top: 12px;
+    margin-left: 7px;
+    border: none;
+    position: absolute;
+}
+
+.list2 {
+    width: 250px;
+    height: 40px;
+    color: #505050;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+}
+#Autombl{
+    width: 230px;
+    height: 40px;
+    border-radius: 6px;
+    background: #E5F1FF;
+
+}
+#Automobiles{
+    width: 230px;
+    height: 19px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19.36px;
+    text-align: left;
+    color: #1C1C1C;
+
+    
+}
+
+.banner {
+    width: 665px;
+    height: 360px;
+    margin: 12px 0px 0px 265px;
+    background-image: url("Banner-board-800x420\ 2.png");
+}
+
+.bannerText {
+    width: 253px;
+    height: 73px;
+    margin: 40px 0px 0px 17px;
+}
+
+#latest {
+    width: 201px;
+    height: 34px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.89px;
+    text-align: left;
+}
+
+#electronic {
+    width: 253px;
+    height: 39px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: left;
+}
+
+#learnMore {
+    border: none;
+    width: 119px;
+    height: 40px;
+    padding: 0px 16px 0px 16px;
+    border-radius: 6px;
+    margin: 10px 0px 0px 17px;
+}
+
+.contact {
+    width: 150px;
+    height: 360px;
+    margin: 12px 0px 0px 15px;
+}
+
+#contactUs {
+    width: 150px;
+    height: 150px;
+    border-radius: 6px;
+    background: #E3F0FF;
+    padding: 12px 0px 0px 7px;
+    font-size: 14px;
+
+}
+
+#bttn1 {
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 6px;
+    background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
+    color: white;
+    border: none;
+
+}
+
+#bttn2 {
+    border: none;
+    margin-top: 12px;
+    width: 130px;
+    height: 30px;
+    border-radius: 6px;
+    color: #0067FF;
+    background: #FFFFFF;
+
+}
+
+.block1 {
+    margin-top: 10px;
+    width: 150px;
+    height: 95px;
+    border-radius: 6px;
+    background: #F38332;
+    padding: 12px 0px 0px 7px;
+}
+
+.block2 {
+    margin-top: 10px;
+    width: 150px;
+    height: 95px;
+    border-radius: 6px;
+    background: #55BDC3;
+    padding: 12px 0px 0px 7px;
+}
+
+/* section sale all works is here */
+.saleSection {
+    margin-top: 13px;
+    margin-left: 85px;
+    display: flex;
+    width: 1110px;
+    height: 240px;
+}
+
+.coundown {
+    width: 198px;
+    height: 113px;
+    border-radius: 4px;
+    margin: 12px 0px 0px 6px;
+}
+
+#deal {
+    width: 155px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+}
+
+#hygiene {
+    width: 155px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    background: #8B96A5;
+}
+
+.time {
+    margin-top: 16px;
+    width: 198px;
+    height: 50px;
+    border-radius: 4px;
+    display: flex;
+    gap: 6px;
+}
+
+.day {
+    width: 45px;
+    height: 50px;
+    border-radius: 4px;
+    background: #606060;
+    color: #FFFFFF;
+}
+
+.digite {
+    padding-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+/* coundown comleted at the end  */
+
+/* start works on sales items */
+.saleItems {
+    width: 850px;
+    height: 238px;
+    margin-left: 55px;
+    background: #FFFFFF;
+    display: flex;
+    /* border: 1px solid #DEE2E7 */
+}
+
+.Items {
+    width: 179px;
+    height: 235px;
+    border: 1px solid #DEE2E7
+}
+
+.digitalthing {
+    width: 140px;
+    height: 140px;
+    margin: 8px 0px 0px 6px;
+}
+
+.titles {
+    width: 112px;
+    height: 59px;
+    margin: 26px 0px 0px 26px;
+}
+
+#persontage {
+    margin-left: 9px;
+    width: 70px;
+    padding: 6px 0px 5px 20px;
+    border-radius: 29px;
+    background: #FFE3E3;
+    color: #EB001B;
+
+}
+
+/* end */
+/* works start on block item group here */
+.items-group {
+    width: 1110px;
+    height: 257px;
+    /* border: 1px solid #E0E0E0; */
+    margin-left: 85px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.left-aside {
+    width: 260px;
+    height: 254px;
+    border: 1px solid #E0E0E0;
+    background-image: url("Group\ 969.png");
+    background-size: cover;
+}
+
+.left-asideText {
+    width: 103px;
+    height: 73px;
+    margin: 4px 0px 0px 5px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#HomeOutdoor {
+    width: 130px;
+    height: 52px;
+    margin: 15px 0px 0px 5px;
+}
+
+#SourceNow {
+    border: none;
+    width: 123px;
+    height: 40px;
+    padding: 0px 16px 0px 16px;
+    border-radius: 6px;
+    margin: 0px 0px 0px 5px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #38383814;
+}
+
+/* Group items is */
+.GroupsItems {
+    width: 212px;
+    height: 127px;
+    border: 1px solid #E0E0E0;
+    background: #FFFFFF;
+
+}
+
+.GroupsItems1 {
+    display: flex;
+}
+
+#titles2 {
+    width: 138px;
+    height: 19px;
+    margin: 15px 0px 0px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40.36px;
+    text-align: left;
+    color: #1C1C1C;
+
+}
+
+#FromUSD {
+    width: 97.95px;
+    height: 32px;
+    margin: 15px 0px 0px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.73px;
+    text-align: left;
+    color: #8B96A5;
+}
+
+#products {
+    width: 82px;
+    height: 82px;
+    background: #FFFFFF;
+    margin-top: -40px;
+    margin-left: 120px;
+}
+
+#group2nd {
+    background-image: url("image\ 98.png");
+    background-size: cover;
+}
+
+.section-inquiry {
+    width: 1110px;
+    height: 420px;
+    margin-left: 85px;
+    margin-top: 10px;
+    background-image: url("Group\ 982.png");
+    background-size: cover;
+    display: flex;
+    border: 1px solid #DEE2E7
+}
+
+.describtion {
+    width: 440px;
+    height: 139px;
+    margin: 16px 0px 0px 10px;
+}
+
+.inquiry {
+    width: 491px;
+    height: 346px;
+    border-radius: 6px;
+    margin: 16px 0px 0px 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #38383840;
+
+}
+
+#headingH2 {
+    width: 440px;
+    height: 78px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 30.73px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#paragraphH2 {
+    width: 390px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+#headingH4 {
+    width: 332px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    margin-left: 10px;
+
+}
+
+#searchOption {
+    width: 440px;
+    height: 40px;
+    margin: 22px 0px 0px 10px;
+    padding-left: 5px;
+    border-radius: 6px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #DEE2E7
+}
+
+#textarea {
+    width: 440px;
+    height: 73px;
+    padding: 15px 0px 0px 5px;
+    margin: 22px 0px 0px 10px;
+    border-radius: 6px;
+    border: 1px solid #DEE2E7
+}
+
+#Quantity {
+    width: 206px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 6px;
+    border: 1px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
+    margin: 22px 0px 0px 10px;
+    border-radius: 6px;
+    border: 1px solid #DEE2E7
+}
+
+#selectPCS {
+    width: 111px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px;
+    border: 1px solid #DEE2E7
+}
+
+#btnText {
+    width: 128px;
+    height: 40px;
+    top: 1717px;
+    padding: 0px 16px 0px 16px;
+    border-radius: 6px;
+    padding: 0px 0px 0px 5px;
+    margin: 22px 0px 0px 10px;
+    color: #FFFFFF;
+    border: none;
+    background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
+
+}
+
+/* recomended satarted form here */
+.Section-recomended {
+    width: 1110px;
+    height: 696px;
+    margin-left: 85px;
+    margin-top: 10px;
+    border: 1px solid #DEE2E7
+}
+
+#headingRecomende {
+    width: 242px;
+    height: 32px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #1C1C1C;
+}
+
+.items-recomended {
+    width: 1110px;
+    height: 663px;
+    border: 1px solid #DEE2E7
+}
+
+.Clothes-items {
+    display: flex;
+}
+
+.Cloth {
+    margin: 7px;
+    width: 220px;
+    height: 310px;
+    border-radius: 6px;
+    border: 1px solid #DEE2E7
+}
+
+.img-cloth {
+    width: 200px;
+    height: 200px;
+    margin: 0px 0px 0px 3px;
+}
+
+.IMAGE {
+    width: 150.22px;
+    height: 170.67px;
+    margin: 10px 0px 0px 20px;
+}
+
+#prices {
+    width: 65.53px;
+    height: 21.24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #1C1C1C;
+    margin: 50px 0px 0px 6px;
+}
+
+#info {
+    width: 186px;
+    height: 53px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    margin: 0px 0px 0px 6px;
+    line-height: 17px;
+}
+
+/* section services started from here all css */
+.Section-service {
+    width: 1110px;
+    height: 256px;
+    margin-left: 85px;
+    margin-top: 10px;
+    border: 1px solid #E0E0E0
+}
+
+.extraService {
+    width: 210px;
+    height: 32px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.Service {
+    width: 260px;
+    height: 200px;
+    margin-top: 23px;
+    background: #FFFFFF;
+    display: inline-block;
+    border-radius: 6px;
+    margin-left: 12px;
+    border: 1px solid #E0E0E0
+}
+
+.Serviceimg {
+    width: 260px;
+    height: 120px;
+}
+
+#imgTitle {
+    margin-top: 20px;
+    width: 215px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+#imgboxs {
+    width: 260px;
+    height: 120px;
+    position: relative;
+    background: #FFFFFF;
+}
+
+.imgbox {
+    width: 260px;
+    height: 120px;
+    border-radius: 6px;
+    background: black
+}
+
+.searchBg {
+    position: absolute;
+    margin: -40px 0px 0px 180px;
+    width: 55px;
+    height: 55px;
+    border: 2px 0px 0px 0px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D1E7FF;
+    border: 2px solid #FFFFFF
+}
+
+#ServiceIcon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Suppliers by region works started from here */
+.Supplier-by-region {
+    margin-left: 85px;
+    margin-top: 10px;
+    width: 1110px;
+    height: 138px;
+}
+
+#SupplierRegion {
+    width: 221px;
+    height: 32px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+}
+
+.Supplier-child {
+    width: 1110px;
+    height: 82px;
+    margin-top: 23px;
+}
+
+.Supplier-Row {
+    display: flex;
+}
+
+.Region {
+    margin: 3px;
+    width: 221px;
+    height: 36px;
+    display: flex;
+}
+
+.flag1 {
+    width: 28px;
+    height: 20px;
+    margin-top: 7px;
+}
+
+.name {
+    width: 116px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: -5px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    margin-left: 6px;
+}
+
+.shopname {
+    width: 83px;
+    height: 16px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: left;
+    margin-left: 6px;
+}
+
+/* newsletter workd started from here all css */
+.newsletter {
+    width: 100vw;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EFF2F4;
+
+
+}
+
+#newsletterFrom {
+    width: 617px;
+    height: 113px;
+}
+
+.letterHeading {
+    width: 617px;
+    height: 52px;
+}
+
+#Subscribe1 {
+    width: 268px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 150px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+}
+
+#paraSubscribe {
+    width: 617px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+
+}
+
+#input-img {
+    width: 22px;
+    height: 22px;
+    margin-left: 6px;
+}
+
+#Email {
+    width: 170px;
+    height: 19px;
+    border: none;
+    margin-left: 6px;
+}
+
+#Subscribe {
+    border: none;
+    width: 110px;
+    margin-left: 8px;
+    height: 40px;
+    padding: 0px 16px 0px 16px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
+
+
+}
+
+.EmailImg {
+    width: 392px;
+    height: 40px;
+    display: flex;
+    border-radius: 6px;
+    background: #FFFFFF;
+    align-items: center;
+    border: 1px solid #DEE2E7;
+}
+
+.btnInput {
+    width: 392px;
+    height: 40px;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px 0px 0px 110px;
+}
+
+/* footer works started from here all css */
+.footerLayout {
+    width: 100vw;
+    height: 324px;
+    border: none;
+    background: #FFFFFF;
+
+}
+
+.Groupwork {
+    width: 276px;
+    height: 157px;
+    border: none;
+    margin-left: 85px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#footerlogo {
+    width: 150px;
+    height: 46px;
+}
+
+#footertext {
+    width: 276px;
+    height: 48px;
+    color: #505050;
+
+}
+
+#footerIcon {
+    width: 200px;
+    height: 32px;
+    border: none;
+    display: flex;
+    gap: 9px;
+}
+
+.socialIcon {
+    width: 30px;
+    height: 30px;
+}
+
+#Col1 {
+    width: 81px;
+    height: 137px;
+    border: none;
+    display: inline-block;
+    margin: 20px 0px 0px 20px;
+}
+
+#About {
+    width: 47px;
+    height: 22px;
+}
+
+.colHead {
+    width: 47px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+}
+
+.colList {
+    width: 81px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #8B96A5;
+
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#Col2 {
+    width: 90px;
+    height: 137px;
+    border: none;
+    display: inline-block;
+    margin: 20px 0px 0px 55px;
+}
+
+#Col3 {
+    width: 108px;
+    height: 137px;
+    border: none;
+    display: inline-block;
+    margin: 20px 0px 0px 55px;
+}
+
+#Col4 {
+    width: 78px;
+    height: 137px;
+    border: none;
+    margin: 20px 0px 0px 55px;
+    display: inline-block;
+}
+
+#Col5 {
+    width: 124px;
+    height: 129px;
+    border: none;
+    display: inline-block;
+    margin: 20px 0px 0px 55px;
+}
+
+#marketButtun {
+    width: 124px;
+    height: 42px;
+    background: #1C1C1C;
+    border-radius: 6px;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.footerEnd {
+    width: 100vw;
+    height: 68px;
+    border: 1px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EFF2F4;
+    border-top: 1px solid #DEE2E7
+}
+
+.paymentMethod {
+    width: 1110px;
+    height: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selectedFlag{
+    width: 107px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#flg{
+    width: 24px;
+    height: 17px;
+}
+#checkLanguage{
+    width: 53px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: right;
+}
+#vectorUP{
+    width: 12px;
+    height: 7.41px;
+}
+
+#Ecommerce {
+    width: 320px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #606060;
+
+
+}
